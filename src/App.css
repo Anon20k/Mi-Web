@@ -1,0 +1,145 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* App layout */
+.App {
+  font-family: 'Roboto', sans-serif; /* Cambia la fuente aquí si prefieres otra */
+  text-align: center;
+  color: #333;
+  background-color: #f4f4f9;
+  line-height: 1.6;
+}
+
+/* Main layout */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styling */
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #333;
+  color: white;
+  z-index: 1000;
+}
+
+.header h1 {
+  font-size: 1.5em;
+}
+
+.header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.header nav a:hover {
+  color: #ffd700; /* Color dorado para resaltar */
+}
+
+/* Section styling */
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* About Section */
+.about-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #333;
+  margin-bottom: 20px;
+}
+
+.about h2, .projects h2, .contact h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.about p, .contact p {
+  font-size: 1.1em;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+/* Projects Section */
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.project-item:hover {
+  transform: translateY(-5px);
+}
+
+.project-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.project-item p {
+  color: #666;
+}
+
+.project-item a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.project-item a:hover {
+  color: #ffd700;
+}
+
+/* Contact Section */
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact ul li {
+  margin: 10px 0;
+}
+
+.contact ul li a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s;
+}
+
+.contact ul li a:hover {
+  color: #ffd700;
+}

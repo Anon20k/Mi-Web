@@ -1,0 +1,18 @@
+/* src/Profile.css */
+.profile {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-name {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 10px;
+  }

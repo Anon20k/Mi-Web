@@ -1,0 +1,73 @@
+/* src/Components/Projects.css */
+
+.projects {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2em;
+  color: #5facf0;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 120px;
+  height: 3px;
+  background-color: #5facf0;
+  margin: 10px auto 30px;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.project-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project-item:hover {
+  transform: translateY(-5px);
+}
+
+.project-image {
+  width: 100%;
+  max-width: 240px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.project-item h3 {
+  font-size: 1.2em;
+  color: #333;
+  margin-top: auto; /* Alinea el título en la parte inferior */
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.icon-button {
+  color: #5facf0;
+  font-size: 1.8em;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.icon-button:hover {
+  color: #4a8ac9;
+  transform: scale(1.1);
+}

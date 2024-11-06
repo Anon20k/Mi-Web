@@ -1,0 +1,44 @@
+/* src/Components/Header.css */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.header-logo h1 {
+  font-size: 1.5em;
+  color: #5facf0;
+  margin: 0;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.header-nav a:hover {
+  color: #5facf0;
+  transform: scale(1.1); /* Efecto de agrandamiento en hover */
+}
+
+/* Espaciado para evitar que el contenido se superponga con el header */
+body {
+  padding-top: 60px; /* Ajusta según la altura del header */
+}
