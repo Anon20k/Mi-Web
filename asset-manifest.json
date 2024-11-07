@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Mi-Web/static/css/main.90b2cdf3.css",
+    "main.js": "/Mi-Web/static/js/main.9edf4690.js",
+    "static/js/453.3a43a69c.chunk.js": "/Mi-Web/static/js/453.3a43a69c.chunk.js",
+    "static/media/1718257713337.jpg": "/Mi-Web/static/media/1718257713337.783c1b83f28ff33f1c6b.jpg",
+    "index.html": "/Mi-Web/index.html",
+    "main.90b2cdf3.css.map": "/Mi-Web/static/css/main.90b2cdf3.css.map",
+    "main.9edf4690.js.map": "/Mi-Web/static/js/main.9edf4690.js.map",
+    "453.3a43a69c.chunk.js.map": "/Mi-Web/static/js/453.3a43a69c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90b2cdf3.css",
+    "static/js/main.9edf4690.js"
+  ]
+}
