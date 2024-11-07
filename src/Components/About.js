@@ -12,20 +12,21 @@ const About = () => {
       <div className="about-container">
         <img src={profilePhoto} alt="Desarrollador" className="about-photo" />
         <div className="about-text">
-          <h3>Soy Nombre del Desarrollador</h3>
+          <h3>Soy Juan Leon</h3>
+          <h3>Full Stack Developer</h3>
           <p>
-            Soy un apasionado por la programación, la música y el café. La disciplina, dedicación y compromiso son tres factores que me definen. Me gusta dar siempre lo mejor de mí en todo, por más simple o compleja que pueda ser la tarea. A continuación, verás los proyectos que he realizado hasta el momento. ¡Que lo disfrutes!
+            Soy un apasionado por la programación, la música y los libros. La disciplina, dedicación y compromiso son tres factores que me definen. Me gusta dar siempre lo mejor de mí en todo, por más simple o compleja que pueda ser la tarea. A continuación, verás los proyectos que he realizado hasta el momento. ¡Que lo disfrutes!
           </p>
         </div>
       </div>
       <div className="social-icons">
-        <a href="https://github.com/tuusuario" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Anon20k" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
-        <a href="https://linkedin.com/in/tuusuario" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/juan-leon-6a485417b/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </a>
-        <a href="mailto:tuemail@gmail.com">
+        <a href="mailto:leon124jt@gmail.com">
           <FaEnvelope />
         </a>
       </div>

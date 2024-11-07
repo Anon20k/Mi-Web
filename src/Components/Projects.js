@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: 'Mi Web',
       image: 'https://i.ibb.co/Km00L9R/Captura-de-pantalla-2024-11-06-200212.png', // Reemplaza con la URL o importación de la imagen
-      github: 'https://github.com/tuusuario/proyecto1',
+      github: 'https://github.com/Anon20k/Mi-Web',
       liveDemo: 'https://tuweb.com/proyecto1'
     },
     {
